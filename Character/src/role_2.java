@@ -1,11 +1,11 @@
 public class role_2 {
-    String Career;
-    int HP; //data member
-    int MP; //data member
-    int ATT; //data member
-    String weapon;
-    String Skill;
-    int damageRange;
+    String Career; //職業
+    int HP; //血量
+    int MP; //魔力
+    int ATT; //攻擊力
+    String weapon; //武器
+    String Skill; //技能
+    int damageRange; //傷害範圍
 
     role_2(String roleCareer,String roleWeapon, int roleHP, int roleMP, int roleATT, String roleSkill) {
         Career = roleCareer;
